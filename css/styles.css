@@ -110,12 +110,9 @@ img {
   background-color: var(--primary-brand-color);
 }
 
-.button:hover {
-  background-color: var(--primary-state-color);
-}
-
+.button:hover,
 .button:focus {
-  background-color: var(--primary-state-color);
+  color: var(--primary-state-color);
 }
 
 .link {
