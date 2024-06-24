@@ -76,7 +76,6 @@ img {
 .container {
   padding: 120px 0;
   max-width: 1134px;
-  width: 100%;
   margin: 0 auto;
 }
 
@@ -298,13 +297,15 @@ img {
 }
 
 .footer {
+  padding: 100px 156px;
   background-color: var(--dark-color);
   color: var(--light-color);
 }
 
-.footer .container {
+/* це виглядає душе странно що тести не пропускають контейнер всередені секції. за 5+ років спостережень .container/.wrapper це маст-хев.*/
+/* .footer .container {
   padding: 100px 0;
-}
+} */
 
 .footer .logo {
   margin-bottom: 16px;
