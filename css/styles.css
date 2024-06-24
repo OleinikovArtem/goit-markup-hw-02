@@ -112,12 +112,7 @@ img {
 
 .button:hover,
 .button:focus {
-  background-color: #404bbf;
-}
-
-button:hover,
-button:focus {
-  background-color: #404bbf;
+  background: var(--primary-state-color);
 }
 
 .link {
