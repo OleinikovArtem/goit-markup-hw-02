@@ -23,6 +23,7 @@
 
 body {
     font-family: var(--primary-font);
+    background-color: var(--white-color);
     color: var(--text-color);
     font-weight: 400;
     font-size: 16px;
@@ -66,6 +67,10 @@ button {
 
 p {
     margin: 0;
+}
+
+img {
+    display: block;
 }
 
 .container {
@@ -221,6 +226,7 @@ p {
 }
 
 .team-section__item {
+    overflow: hidden;
     border-radius: 5px;
         background-color: var(--white-color);
         text-align: center;
@@ -240,6 +246,23 @@ p {
 
 .team-section__desc {
     padding: 32px 0;
+}
+
+.portfolio__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 48px;
+}
+
+.portfolio__title {
+    margin: 8px 0;
+}
+
+.portfolio__desc {
+    padding: 32px 16px;
+    border: 1px solid var(--accent-color);
+    border-top: none;
 }
 
 .footer {
