@@ -51,8 +51,6 @@ h3 {
 }
 
 ul {
-  /* margin: 0; */
-  /* padding: 0; */
   list-style: none;
 }
 
@@ -66,7 +64,7 @@ button {
 }
 
 p {
-  /* margin: 0; */
+  margin: 0;
 }
 
 img {
@@ -98,7 +96,6 @@ img {
   letter-spacing: 0.04em;
   padding: 16px 32px;
   cursor: pointer;
-
   color: var(--white-color);
   background-color: var(--primary-brand-color);
 }
@@ -117,7 +114,6 @@ img {
 }
 
 .logo {
-  /* display: block; */
   margin-right: 76px;
   color: var(--dark-color);
   font-family: var(--title-font);
@@ -134,22 +130,10 @@ img {
 }
 
 .header {
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: space-between; */
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-.header__nav {
-  /* display: flex; */
-}
-
-.header__list {
-  /* display: flex; */
-  /* gap: 40px; */
 }
 
 .header__nav-link {
@@ -185,17 +169,10 @@ img {
 }
 
 .hero-section__title {
-  /* max-width: 500px; */
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
-}
-
-.goals-section__list li {
-  /* max-width: calc(25% - 22px); */
-  /* display: inline-block; */
-  vertical-align: top;
 }
 
 .goals-section__list li:not(:first-child) {
@@ -227,19 +204,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--dark-color);
-  /* margin: 0 0 72px; */
-}
-
-.team-list {
-  /* display: flex; */
-  /* gap: 24px; */
-  /* justify-content: center; */
-}
-
-.team__item {
-  overflow: hidden;
-  background-color: var(--white-color);
-  text-align: center;
+  margin-bottom: 72px;
 }
 
 .team__title {
@@ -264,20 +229,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--dark-color);
-  margin-left: 0;
-  margin-right: 0;
   margin-bottom: 72px;
-}
-
-.portfolio__list {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* justify-content: space-between; */
-  /* row-gap: 48px; */
-}
-
-.portfolio__item {
-  border: 1px solid var(--accent-color);
 }
 
 .portfolio__title {
@@ -317,5 +269,4 @@ img {
 .footer__text {
   color: var(--light-color);
   line-height: 1.5;
-  /* max-width: 264px; */
 }
