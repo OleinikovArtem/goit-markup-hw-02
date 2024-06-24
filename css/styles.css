@@ -109,11 +109,11 @@ img {
   background-color: var(--primary-brand-color);
 }
 
-.primary-button:hover {
+.button:hover {
   background-color: var(--primary-state-color);
 }
 
-.primary-button:focus {
+.button:focus {
   background-color: var(--primary-state-color);
 }
 
@@ -140,7 +140,7 @@ img {
   color: var(--primary-brand-color);
 }
 
-.logo .span {
+.logo span {
   color: var(--dark-color);
 }
 
