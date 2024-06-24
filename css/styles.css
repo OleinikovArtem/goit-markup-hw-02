@@ -14,7 +14,6 @@
   --accent-color: #e7e9fc;
   --light-color: #f4f4fd;
 
-  --modal-overlay-color: #2e2f42;
   --grey-color: #6d6d7b;
 
   --white-color: #ffffff;
@@ -220,6 +219,8 @@ img {
 
 .goals-section__title {
   margin: 0 0 8px 0;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
 }
 
 .goals-section__text {
