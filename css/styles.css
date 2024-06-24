@@ -247,6 +247,7 @@ img {
 }
 
 .team__title {
+  padding-top: 32px;
   margin: 0 0 8px 0;
   font-weight: 500;
   font-size: 20px;
@@ -260,6 +261,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  padding-bottom: 32px;
 }
 
 .team_img {
