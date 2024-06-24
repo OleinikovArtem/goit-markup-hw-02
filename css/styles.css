@@ -34,20 +34,17 @@ h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: inherit;
 }
 
 h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: inherit;
 }
 
 h3 {
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: inherit;
 }
 
 ul {
@@ -89,7 +86,6 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: inherit;
 }
 
 .button {
@@ -98,8 +94,6 @@ img {
   line-height: 24px;
   letter-spacing: 0.04em;
   padding: 16px 32px;
-  /* border-radius: 5px; */
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
   transition: 0.2s;
   cursor: pointer;
 }
@@ -132,8 +126,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
-
   color: var(--primary-brand-color);
 }
 
@@ -168,7 +160,6 @@ img {
 }
 
 .header__address {
-  font-style: normal;
   margin-left: auto;
 }
 
@@ -182,12 +173,7 @@ img {
 }
 
 .hero-section {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
   text-align: center;
-
   padding: 188px 0;
   background-color: var(--dark-color);
   color: var(--white-color);
@@ -195,18 +181,13 @@ img {
 
 .hero-section__title {
   max-width: 500px;
-  margin-bottom: 48px;
-  margin-left: auto;
-  margin-right: auto;
-
-  letter-spacing: 0.02em;
-  text-align: center;
+  margin: 0 auto 48px;
 }
 
-.goals-section__list {
-  display: flex;
-  justify-content: center;
-  /* gap: 24px; */
+.goals-section__list li {
+  max-width: calc(25% - 22px);
+  display: inline-block;
+  vertical-align: top;
 }
 
 .goals-section__list li:not(:first-child) {
@@ -214,8 +195,7 @@ img {
 }
 
 .goals-section__title {
-  margin: 0 0 8px 0;
-  letter-spacing: 0.02em;
+  margin: 0 0 8px;
   color: var(--dark-color);
 }
 
@@ -235,10 +215,9 @@ img {
 .team-title {
   font-size: 36px;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
-  margin: 0 0 72px 0;
+  margin: 0 0 72px;
 }
 
 .team-list {
@@ -249,45 +228,31 @@ img {
 
 .team__item {
   overflow: hidden;
-  /* border-radius: 5px; */
   background-color: var(--white-color);
   text-align: center;
-  /* box-shadow: 0px 4px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
 }
 
 .team__title {
   padding-top: 32px;
-  margin: 0 0 8px 0;
+  margin: 0 0 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--dark-color);
 }
 
 .team__text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--text-color);
   padding-bottom: 32px;
 }
 
-.team_img {
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
-}
-
-/* .team__desc {
-  padding: 32px 0;
-} */
-
 .portfolio-title {
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
-  margin-top: 0;
-  margin-bottom: 72px;
+  margin: 0 0 72px;
 }
 
 .portfolio__list {
@@ -303,37 +268,19 @@ img {
 
 .portfolio__title {
   margin: 8px 0;
-  padding-top: 32px;
-  padding-left: 16px;
-  letter-spacing: 0.02em;
+  padding: 32px 0 0 16px;
   color: var(--dark-color);
 }
 
 .portfolio__text {
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 0 0 32px 16px;
 }
 
-/* .portfolio__desc {
-  padding: 32px 16px;
-} */
-
 .footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding: 100px 156px;
   background-color: var(--dark-color);
   color: var(--light-color);
 }
-
-/* це виглядає душе странно що тести не пропускають контейнер всередені секції. за 5+ років спостережень .container/.wrapper це маст-хев.*/
-/* навіть якщо це разрахованно для практики є відсоток студентів які маю вже цю практику кожного дня, та заставляти писати код "НЕПРАВИЛЬНО" - це якось не гуд  */
-/* в додачу до того що й фігма без ДЕВ режему (ці ізвращеніє), хоча за ціну навчання маєте можливість це дозволити  */
-/* перспективи такого навчання виглядають сумно... */
-/* .footer .container {
-  padding: 100px 0;
-} */
 
 .footer .logo {
   margin-bottom: 16px;
@@ -345,7 +292,6 @@ img {
 
 .footer__text {
   color: var(--light-color);
-  letter-spacing: 0.02em;
   line-height: 1.5;
   max-width: 264px;
 }
