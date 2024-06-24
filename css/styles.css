@@ -98,8 +98,8 @@ img {
   line-height: 24px;
   letter-spacing: 0.04em;
   padding: 16px 32px;
-  border-radius: 5px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  /* border-radius: 5px; */
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
   transition: 0.2s;
   cursor: pointer;
 }
@@ -169,6 +169,7 @@ img {
 
 .header__address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .header__address--link {
@@ -244,10 +245,10 @@ img {
 
 .team__item {
   overflow: hidden;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   background-color: var(--white-color);
   text-align: center;
-  box-shadow: 0px 4px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0px 4px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
 }
 
 .team__title {
@@ -269,7 +270,7 @@ img {
 }
 
 .team_img {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 /* .team__desc {
@@ -314,7 +315,10 @@ img {
 } */
 
 .footer {
-  padding: 100px 156px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
+  padding-right: 156px;
   background-color: var(--dark-color);
   color: var(--light-color);
 }
@@ -322,6 +326,7 @@ img {
 /* це виглядає душе странно що тести не пропускають контейнер всередені секції. за 5+ років спостережень .container/.wrapper це маст-хев.*/
 /* навіть якщо це разрахованно для практики є відсоток студентів які маю вже цю практику кожного дня, та заставляти писати код "НЕПРАВИЛЬНО" - це якось не гуд  */
 /* в додачу до того що й фігма без ДЕВ режему (ці ізвращеніє), хоча за ціну навчання маєте можливість це дозволити  */
+/* перспективи такого навчання виглядають сумно... */
 /* .footer .container {
   padding: 100px 0;
 } */
