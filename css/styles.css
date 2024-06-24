@@ -109,7 +109,10 @@ img {
   background-color: var(--primary-brand-color);
 }
 
-.primary-button:hover,
+.primary-button:hover {
+  background-color: var(--primary-state-color);
+}
+
 .primary-button:focus {
   background-color: var(--primary-state-color);
 }
@@ -137,7 +140,7 @@ img {
   color: var(--primary-brand-color);
 }
 
-.logo__span {
+.logo .span {
   color: var(--dark-color);
 }
 
@@ -231,12 +234,17 @@ img {
   background-color: var(--light-color);
 }
 
-.team-section .team-section__title {
+.team-title {
+  font-size: 36px;
+  line-height: 1.11px;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
   margin: 0 0 72px 0;
 }
 
-.team-section__list {
+.team-list {
   display: flex;
   gap: 24px;
   justify-content: center;
