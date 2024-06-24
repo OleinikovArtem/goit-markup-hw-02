@@ -51,8 +51,8 @@ h3 {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
   list-style: none;
 }
 
@@ -66,17 +66,17 @@ button {
 }
 
 p {
-  margin: 0;
+  /* margin: 0; */
 }
 
 img {
-  display: block;
+  /* display: block; */
 }
 
 .container {
-  padding: 120px 0;
-  max-width: 1134px;
-  margin: 0 auto;
+  /* padding: 120px 0; */
+  /* max-width: 1134px; */
+  /* margin: 0 auto; */
 }
 
 .small-text {
@@ -185,7 +185,7 @@ img {
 }
 
 .hero-section__title {
-  max-width: 500px;
+  /* max-width: 500px; */
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
@@ -193,7 +193,7 @@ img {
 }
 
 .goals-section__list li {
-  max-width: calc(25% - 22px);
+  /* max-width: calc(25% - 22px); */
   /* display: inline-block; */
   vertical-align: top;
 }
@@ -227,7 +227,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--dark-color);
-  margin: 0 0 72px;
+  /* margin: 0 0 72px; */
 }
 
 .team-list {
@@ -317,5 +317,5 @@ img {
 .footer__text {
   color: var(--light-color);
   line-height: 1.5;
-  max-width: 264px;
+  /* max-width: 264px; */
 }
