@@ -314,12 +314,9 @@ img {
   color: var(--light-color);
 }
 
-.footer__desc {
-  max-width: 264px;
-}
-
 .footer__text {
   color: var(--light-color);
   letter-spacing: 0.02em;
   line-height: 1.5;
+  max-width: 264px;
 }
