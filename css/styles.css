@@ -117,7 +117,7 @@ img {
 }
 
 .logo {
-  display: block;
+  /* display: block; */
   margin-right: 76px;
   color: var(--dark-color);
   font-family: var(--title-font);
@@ -134,19 +134,22 @@ img {
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 24px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header__nav {
-  display: flex;
+  /* display: flex; */
 }
 
 .header__list {
-  display: flex;
-  gap: 40px;
+  /* display: flex; */
+  /* gap: 40px; */
 }
 
 .header__nav-link {
@@ -175,19 +178,23 @@ img {
 
 .hero-section {
   text-align: center;
-  padding: 188px 0;
+  padding-top: 188px;
+  padding-bottom: 188px;
   background-color: var(--dark-color);
   color: var(--white-color);
 }
 
 .hero-section__title {
   max-width: 500px;
-  margin: 0 auto 48px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .goals-section__list li {
   max-width: calc(25% - 22px);
-  display: inline-block;
+  /* display: inline-block; */
   vertical-align: top;
 }
 
@@ -196,7 +203,9 @@ img {
 }
 
 .goals-section__title {
-  margin: 0 0 8px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 8px;
   color: var(--dark-color);
 }
 
@@ -222,9 +231,9 @@ img {
 }
 
 .team-list {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
+  /* display: flex; */
+  /* gap: 24px; */
+  /* justify-content: center; */
 }
 
 .team__item {
@@ -235,7 +244,9 @@ img {
 
 .team__title {
   padding-top: 32px;
-  margin: 0 0 8px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -253,14 +264,16 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--dark-color);
-  margin: 0 0 72px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 72px;
 }
 
 .portfolio__list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  row-gap: 48px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  /* row-gap: 48px; */
 }
 
 .portfolio__item {
@@ -270,16 +283,25 @@ img {
 .portfolio__title {
   margin-top: 0;
   margin-bottom: 8px;
-  padding: 32px 0 0 16px;
+  padding-top: 32px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 16px;
   color: var(--dark-color);
 }
 
 .portfolio__text {
-  padding: 0 0 32px 16px;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .footer {
-  padding: 100px 156px;
+  padding-top: 100px;
+  padding-right: 156px;
+  padding-bottom: 100px;
+  padding-left: 156px;
   background-color: var(--dark-color);
   color: var(--light-color);
 }
