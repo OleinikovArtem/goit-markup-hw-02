@@ -162,7 +162,8 @@ img {
   color: var(--dark-color);
 }
 
-.header__nav-link:hover {
+.header__nav-link:hover,
+.header__nav-link:focus {
   color: var(--primary-state-color);
 }
 
@@ -177,12 +178,16 @@ img {
   margin-top: 20px;
 }
 
-.header__address--link {
-  color: var(--dark-color);
+.header__address {
   font-style: normal;
 }
 
-.header__address--link:hover {
+.header__address--link {
+  color: var(--text-color);
+}
+
+.header__address--link:hover,
+.header__address--link:focus {
   color: var(--primary-state-color);
 }
 
