@@ -269,22 +269,39 @@ img {
 }
 
 .footer {
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
-
-.footer .container {
+  background-color: #2e2f42;
+  color: #ffffff;
   padding: 100px 0;
 }
 
-.footer .logo {
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo {
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   margin-bottom: 16px;
 }
 
-.footer .logo span {
-  color: var(--light-color);
+.footer__logo span {
+  color: #ffffff;
 }
 
-.footer__desc {
-  width: 264px;
+.footer__text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  text-align: center;
 }
