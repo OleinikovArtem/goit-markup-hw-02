@@ -181,18 +181,22 @@ img {
 }
 
 .hero-section {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  text-align: center;
+
   padding: 188px 0;
   background-color: var(--dark-color);
   color: var(--white-color);
 }
 
 .hero-section__title {
-  width: 500px;
-  margin: 0 0 48px 0;
+  max-width: 500px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 
   letter-spacing: 0.02em;
   text-align: center;
@@ -277,6 +281,8 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-top: 0;
+  margin-bottom: 72px;
 }
 
 .portfolio__list {
@@ -314,6 +320,8 @@ img {
 }
 
 /* це виглядає душе странно що тести не пропускають контейнер всередені секції. за 5+ років спостережень .container/.wrapper це маст-хев.*/
+/* навіть якщо це разрахованно для практики є відсоток студентів які маю вже цю практику кожного дня, та заставляти писати код "НЕПРАВИЛЬНО" - це якось не гуд  */
+/* в додачу до того що й фігма без ДЕВ режему (ці ізвращеніє), хоча за ціну навчання маєте можливість це дозволити  */
 /* .footer .container {
   padding: 100px 0;
 } */
