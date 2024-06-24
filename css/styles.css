@@ -231,7 +231,12 @@ img {
 }
 
 .team-section {
+  padding-top: 120px;
   background-color: var(--light-color);
+}
+
+.team-section .container {
+  padding-top: 0;
 }
 
 .team-title {
