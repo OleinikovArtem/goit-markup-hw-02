@@ -34,17 +34,20 @@ h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: inherit;
 }
 
 h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: inherit;
 }
 
 h3 {
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: inherit;
 }
 
 ul {
@@ -105,7 +108,8 @@ img {
 
 .button:hover,
 .button:focus {
-  background: var(--primary-state-color);
+  background-color: var(--primary-state-color);
+  color: var(--primary-state-color);
 }
 
 .link {
@@ -161,6 +165,7 @@ img {
 
 .header__address {
   margin-left: auto;
+  font-style: normal;
 }
 
 .header__address--link {
