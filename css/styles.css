@@ -40,6 +40,7 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.11;
   letter-spacing: inherit;
 }
 
@@ -241,11 +242,10 @@ img {
 
 .team-title {
   font-size: 36px;
-  line-height: 1.11px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--dark-color);
   margin: 0 0 72px 0;
 }
 
@@ -265,6 +265,18 @@ img {
 
 .team__title {
   margin: 0 0 8px 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.team__text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 .team_img {
