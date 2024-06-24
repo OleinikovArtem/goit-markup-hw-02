@@ -206,7 +206,11 @@ img {
 .goals-section__list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  /* gap: 24px; */
+}
+
+.goals-section__list li:not(:first-child) {
+  margin-left: 24px;
 }
 
 .goals-section__title {
