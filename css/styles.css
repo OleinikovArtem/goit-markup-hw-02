@@ -137,7 +137,7 @@ img {
   color: var(--primary-brand-color);
 }
 
-.logo span {
+.logo__span {
   color: var(--dark-color);
 }
 
@@ -292,10 +292,16 @@ img {
   margin-bottom: 16px;
 }
 
-.footer .logo span {
+.footer .logo__span {
   color: var(--light-color);
 }
 
 .footer__desc {
   width: 264px;
+}
+
+.footer__text {
+  color: var(--light-color);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
