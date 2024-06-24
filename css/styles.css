@@ -34,20 +34,20 @@ h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: inherit;
+  letter-spacing: 0.02em;
 }
 
 h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: inherit;
+  letter-spacing: 0.02em;
 }
 
 h3 {
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: inherit;
+  letter-spacing: 0.02em;
 }
 
 ul {
@@ -99,9 +99,7 @@ img {
   padding: 16px 32px;
   transition: 0.2s;
   cursor: pointer;
-}
 
-.primary-button {
   color: var(--white-color);
   background-color: var(--primary-brand-color);
 }
@@ -109,7 +107,6 @@ img {
 .button:hover,
 .button:focus {
   background-color: var(--primary-state-color);
-  color: var(--primary-state-color);
 }
 
 .link {
@@ -272,7 +269,8 @@ img {
 }
 
 .portfolio__title {
-  margin: 8px 0;
+  margin-top: 0;
+  margin-bottom: 8px;
   padding: 32px 0 0 16px;
   color: var(--dark-color);
 }
